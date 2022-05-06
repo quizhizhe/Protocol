@@ -724,4 +724,8 @@ public interface BedrockPacketHandler extends PacketHandler {
     default boolean handle(ChangeMobPropertyPacket packet) {
         return false;
     }
+
+    default boolean handle(SubChunkPacket475 packet) {
+        return false;
+    }
 }

@@ -157,6 +157,7 @@ public enum BedrockPacketType {
     SPAWN_EXPERIENCE_ORB,
     SPAWN_PARTICLE_EFFECT,
     SUB_CHUNK,
+    SUB_CHUNK475,
     SUB_CHUNK_REQUEST,
     START_GAME,
     STOP_SOUND,
